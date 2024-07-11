@@ -66,8 +66,12 @@ async function run(page: Page) {
     //const xp = '::-p-xpath(//div[@class="QS5gu sy4vM"])';
     //const el = await page.waitForSelector('::-p-xpath(//div[@class="QS5gu sy4vM"])');
    // await el.click();
-
+try {
     await (await page.waitForSelector('::-p-xpath(//div[@class="QS5gu sy4vM"])')).click();
+}
+catch {
+
+}
     //console.log(await el.evaluate(el => el.textContent)); // => clicked
    // await (await page.waitForSelector('::-p-xpath(//div[@class="QS5gu sy4vM"]')))[0].click({count:1})
     //try {
