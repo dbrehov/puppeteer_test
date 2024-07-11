@@ -66,7 +66,7 @@ async function run(page: Page) {
     try {
         await (await page.waitForSelector('::-p-xpath(//div[@class="QS5gu sy4vM"])', { timeout: 3000 })).click();
     } catch (error) {
-        console.log(error);
+        //console.log(error);
     }
 
     await new Promise(resolve => setTimeout(resolve, 2000));
@@ -74,7 +74,7 @@ async function run(page: Page) {
     try {
         await (await page.waitForSelector('::-p-xpath(//textarea[@name="q"])', { timeout: 3000 })).type('Ваш текст', { delay: 50 });
     } catch (error) {
-        console.log(error);
+        //console.log(error);
     }
 
     await page.keyboard.press('Enter');
