@@ -1,0 +1,24 @@
+{
+  "name": "puppeteer_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "@types/puppeteer": "^7.0.4",
+    "axios": "^1.7.2",
+    "form-data": "^4.0.0",
+    "os": "^0.1.2",
+    "puppeteer": "^22.12.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
